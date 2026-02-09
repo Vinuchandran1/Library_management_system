@@ -1,0 +1,153 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Clean Code",
+      "author": "Robert C. Martin",
+      "isIssued": true
+    },
+    {
+      "id": 2,
+      "title": "The Pragmatic Programmer",
+      "author": "Andrew Hunt",
+      "isIssued": false
+    },
+    {
+      "id": 3,
+      "title": "Introduction to Algorithms",
+      "author": "Thomas H. Cormen",
+      "isIssued": false
+    },
+    {
+      "id": 4,
+      "title": "Design Patterns",
+      "author": "Erich Gamma",
+      "isIssued": false
+    },
+    {
+      "id": 5,
+      "title": "You Don't Know JS",
+      "author": "Kyle Simpson",
+      "isIssued": false
+    },
+    {
+      "id": 6,
+      "title": "Refactoring",
+      "author": "Martin Fowler",
+      "isIssued": false
+    },
+    {
+      "id": 7,
+      "title": "Effective Java",
+      "author": "Joshua Bloch",
+      "isIssued": true
+    },
+    {
+      "id": 8,
+      "title": "JavaScript: The Good Parts",
+      "author": "Douglas Crockford",
+      "isIssued": false
+    },
+    {
+      "id": 9,
+      "title": "Cracking the Coding Interview",
+      "author": "Gayle Laakmann McDowell",
+      "isIssued": false
+    },
+    {
+      "id": 10,
+      "title": "Head First Design Patterns",
+      "author": "Eric Freeman",
+      "isIssued": true
+    },
+    {
+      "id": 11,
+      "title": "The Clean Coder",
+      "author": "Robert C. Martin",
+      "isIssued": false
+    },
+    {
+      "id": 12,
+      "title": "Domain-Driven Design",
+      "author": "Eric Evans",
+      "isIssued": false
+    },
+    {
+      "id": 13,
+      "title": "Eloquent JavaScript",
+      "author": "Marijn Haverbeke",
+      "isIssued": false
+    },
+    {
+      "id": 14,
+      "title": "System Design Interview",
+      "author": "Alex Xu",
+      "isIssued": true
+    },
+    {
+      "id": 15,
+      "title": "Code Complete",
+      "author": "Steve McConnell",
+      "isIssued": false
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "Alice Johnson",
+      "issuedBooks": [
+        1,
+        10
+      ]
+    },
+    {
+      "id": 2,
+      "username": "Bob Smith",
+      "issuedBooks": [
+        14
+      ]
+    },
+    {
+      "id": 3,
+      "username": "Charlie Brown",
+      "issuedBooks": [
+        7
+      ]
+    },
+    {
+      "id": 4,
+      "username": "Diana Prince",
+      "issuedBooks": []
+    },
+    {
+      "id": 5,
+      "username": "Ethan Hunt",
+      "issuedBooks": []
+    },
+    {
+      "id": 6,
+      "username": "Fiona Gallagher",
+      "issuedBooks": []
+    },
+    {
+      "id": 7,
+      "username": "George Miller",
+      "issuedBooks": []
+    },
+    {
+      "id": 8,
+      "username": "Hannah Lee",
+      "issuedBooks": []
+    },
+    {
+      "id": 9,
+      "username": "Ivan Petrov",
+      "issuedBooks": []
+    },
+    {
+      "id": 11,
+      "username": "Julia Roberts",
+      "issuedBooks": []
+    }
+  ]
+}
