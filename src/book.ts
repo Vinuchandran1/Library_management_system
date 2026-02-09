@@ -5,10 +5,10 @@ export class Book {
     // private isIssued : boolean;
 
     constructor(public id:number,public title:string,public author:string,private isIssued : boolean = false){
-        // this.id = id;
-        // this.title = title;
-        // this.author = author;
-        // this.isIssued = false;
+        this.id = id;
+        this.title = title;
+        this.author = author;
+        this.isIssued = false;
     }
 
     issueBook():boolean{
